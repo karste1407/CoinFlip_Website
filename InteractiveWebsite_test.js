@@ -41,7 +41,7 @@ function events() {
 function coinFlip_animate() {
 	var css = document.createElement("style");
 	css.type = "text/css";
-	css.innerHTML = document.getElementById("coin") + "{transform: rotateY(180deg);}";
+	css.innerHTML = document.getElementById("coin").innerHTML + "{transform: rotateX(180deg);}";
 	document.body.appendChild(css);
 }
 
