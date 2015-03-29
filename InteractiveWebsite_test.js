@@ -12,7 +12,7 @@ function events() {
     //finner ut om det faktisk blir kron/mynt
     for (var i = 0; i < _list.length; i++) {
     	_list1[i].addEventListener("click", function() {
-    		user_input = this.innerHTML;
+    		var user_input = this.innerHTML;
     	});
     }
     
